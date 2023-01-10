@@ -1,6 +1,6 @@
 let bot = new RiveScript();
 const brains = [
-   './brain.rive'
+   'https://cdn.jsdelivr.net/gh/bennosaurusb/crm-student-chatbot/brain.rive'
 // './another-category-sample.rive
 ];
 bot.loadFile(brains).then(botReady).catch(botNotReady);
